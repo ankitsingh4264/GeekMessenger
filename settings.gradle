@@ -1,0 +1,2 @@
+rootProject.name='GeekMessenger'
+include ':app'

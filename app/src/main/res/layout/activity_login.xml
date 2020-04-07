@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+        android:layout_marginTop="250dp"
+        android:id="@+id/edtloginusername"
+        android:hint="UserName"
+        android:textSize="25sp"
+        android:layout_marginHorizontal="10dp"
+
+
+        ></EditText>
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:background="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edtloginpass"
+        android:hint="Password"
+        android:inputType="textPassword"
+
+
+        android:textSize="25sp"
+        android:layout_marginHorizontal="10dp"
+        ></com.google.android.material.textfield.TextInputEditText>
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnlogin"
+        android:textSize="30sp"
+        android:text="Login"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        app:cornerRadius="30dp"
+        android:padding="5dp"
+        android:shadowColor="@android:color/holo_blue_bright"
+
+        ></Button>
+
+    00</LinearLayout>

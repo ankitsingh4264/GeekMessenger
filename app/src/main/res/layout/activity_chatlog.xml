@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:weightSum="24"
+
+    tools:context=".Chatlog">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_chatlog"
+        android:layout_width="match_parent"
+        android:layout_weight="23.8"
+        android:layout_height="0dp"
+        android:background="@android:color/darker_gray"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_weight="0.2"
+        android:background="#F5F5F5"
+
+        >
+
+        <EditText
+            android:id="@+id/send_msgchatlog"
+            android:layout_width="308dp"
+            android:layout_height="match_parent"
+            android:hint="Enter message"
+            android:layout_weight="4"
+            android:padding="8dp"
+            android:backgroundTint="@android:color/white"
+
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/send_chatlog"
+            android:layout_width="101dp"
+            android:layout_weight="1"
+            android:layout_height="54dp"
+            android:layout_marginRight="2dp"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:text="Send"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/send_msgchatlog" />
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "970640714053",
+    "firebase_url": "https://geekmessenger.firebaseio.com",
+    "project_id": "geekmessenger",
+    "storage_bucket": "geekmessenger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970640714053:android:245966ab4b453647def62c",
+        "android_client_info": {
+          "package_name": "com.example.geekmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970640714053-gollsrkubvs7f10b6fvjrmpflim5klpe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.geekmessenger",
+            "certificate_hash": "6dec7cb206530a2cc82a30d78f7ba00509f3aa8f"
+          }
+        },
+        {
+          "client_id": "970640714053-cdmmpvpq18p2cj4ajlld6bqddp24tm2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUrXiYPJzqFPYCVsSxlsn8-GTKQLeH5sg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970640714053-cdmmpvpq18p2cj4ajlld6bqddp24tm2c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

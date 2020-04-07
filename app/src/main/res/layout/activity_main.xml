@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/btnaddimage"
+
+        android:layout_gravity="center"
+        android:clickable="true"
+
+        android:layout_marginTop="50dp"
+        android:background="@drawable/circlebutton"
+
+
+
+        ></de.hdodenhof.circleimageview.CircleImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add profitle image*"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        ></TextView>
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_marginTop="30dp"
+        android:id="@+id/edtfullname"
+        android:padding="4dp"
+        android:hint="Full name"
+        android:height="50dp"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="10dp"
+
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edtusername"
+        android:hint="UserName"
+        android:height="50dp"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="10dp"
+
+
+        ></EditText>
+ <EditText
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+
+     android:background="@android:color/white"
+     android:layout_marginTop="20dp"
+     android:id="@+id/edtpass"
+     android:hint="Password"
+     android:inputType="textPassword"
+
+
+     android:textSize="20sp"
+     android:layout_marginHorizontal="10dp"
+     ></EditText>
+
+
+
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:layout_gravity="center"
+    android:id="@+id/btnregister"
+    android:textSize="30sp"
+    android:text="Register"
+    android:background="@android:color/holo_green_dark"
+    android:textColor="@android:color/white"
+    ></Button>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/alredadyacct"
+        android:textColor="@android:color/white"
+        android:contextClickable="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="Already Have an account login here->"
+        android:clickable="true"
+        android:textSize="15sp"
+        ></TextView>
+
+
+
+
+       </LinearLayout>
+    </ScrollView>
+</LinearLayout>
